@@ -1,12 +1,10 @@
-var name = "joe";
+var name = "Susan";
 var height = "70";
-if (name === "joe"){
-  console.log("Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!");
+if (name === "Susan") {
+  console.log("yes")
 }
-else if (height === "74") {
-  console.log("Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!");
-} else {
-  console.log("Capitalization matters and String vs. Numbers matter. Numbers don't have any quotes around them, Strings do have quotes around them!");
+if (height === "70"){
+  console.log("double yes")
 }
 // Don't worry about this
 module.exports = { name, height
